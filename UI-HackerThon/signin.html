@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+        .topnav-right{
+            float: right;
+        }
+        a{
+            padding-left: 20px;
+        padding-right: 10px;
+        color: antiquewhite;
+        text-decoration: none;
+        font-size: 20px;
+        }
+        header{
+            background-color: orange;
+            padding: 20px;
+        }
+        section{
+    background-image: url(https://d3d5bpai12ti8.cloudfront.net/wp-content/uploads/20200730112109/iStock-1142278364.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+   padding-bottom: 400px;
+}
+    </style>
+    </head>
+    <body>
+        <header> 
+            <div class="let">
+            <a href="Home.html" style="font-size: 20px;">Flights</a>
+            <a href="contact.html"style="font-size: 20px;">ContactUs</a>
+            <a href="Recommandations.html"style="font-size: 20px;">Recommandations</a>
+            <div class="topnav-right">
+            <a href="signin.html"style="font-size: 20px;">Signin</a>
+            <a href="login.html"style="font-size: 20px;">Login</a>
+            </div>
+            </div>
+        </header>
+        <section>
+       <center>
+            <br>
+            <br>
+            <h1>Sign in</h1>
+            <div class="container">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name.." style="width: 200px;"><br>
+                  <br>
+                  <br>
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name.." style="width: 200px;"><br>
+                 <br>
+                 <br>
+                 <label for="phone">Enter your phone number:</label>
+                 <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Number" style="width: 200px;">
+                 <br>
+                 <br>
+                <input type="submit" value="Submit" style="  background-color: #04AA6D;
+                  color: white;
+                  padding: 12px 20px;
+                  border: none;
+                  border-radius: 4px;
+                  cursor: pointer;">
+                </form>
+              </div>
+              
+            </div>
+</center>
+        </section>
+    </body>
+</html>
